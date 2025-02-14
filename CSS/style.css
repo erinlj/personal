@@ -9,11 +9,18 @@ header{
 
 header nav ul{
     display: flex;
-    margin-left: 80%;
+    margin-left: 70%;
+    list-style: none;
 }
 
 header nav ul li{
     padding-left: 10%;
+}
+
+header a{
+    text-decoration: none;
+    color: brown;
+    
 }
 
 section{
@@ -25,7 +32,7 @@ section{
 }
 
 .Container{
-    margin-top: 10%
+    margin-top: 5%
 }
 
 .Container img{
@@ -40,6 +47,7 @@ section{
 
 .Container p, ul{
     margin-top: 2%;
+    max-width: 60ch;
     font-size: 1.5rem;
 }
 
@@ -47,15 +55,4 @@ footer {
     line-height: 40px;
     display: flex;
     justify-content: center;
-}
-
-#intro {
-    background-image: url(pinkbg.jpg);
-    background-repeat: round;
-    }
-#about{
-    background-color: bisque;
-}
-#contact{
-    background-color: blanchedalmond;
 }
